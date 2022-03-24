@@ -17,8 +17,8 @@ if [ "$KERNEL" = "Linux" ]; then
 	echo "Identifying platform: $PLATFORM"
 
 	case $PLATFORM in
-		"i686") DOWNLOADURL="https://download.cuberite.org/linux-i686/Cuberite.tar.gz" ;;
-		"x86_64") DOWNLOADURL="https://download.cuberite.org/linux-x86_64/Cuberite.tar.gz" ;;
+		"i686") DOWNLOADURL="https://github.com/nickc01/cuberite/releases/download/v1.0.0.0/Server.tar.gz" ;;
+		"x86_64") DOWNLOADURL="https://github.com/nickc01/cuberite/releases/download/v1.0.0.0/Server.tar.gz" ;;
 		# Assume that all arm devices are a raspi for now.
 		arm*) DOWNLOADURL="https://download.cuberite.org/linux-armhf-raspbian/Cuberite.tar.gz" ;;
 		# Allow install on Raspberry Pi 4 Ubuntu x64 (AArch64) using the ARM builds.
