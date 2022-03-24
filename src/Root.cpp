@@ -998,11 +998,11 @@ AStringVector cRoot::GetPlayerTabCompletionMultiWorld(const AString & a_Text)
 
 void cRoot::HandleInput()
 {
-	if (g_RunAsService)
+	/*if (g_RunAsService)
 	{
 		// Ignore input when running as a service, cin was never opened in that case:
 		return;
-	}
+	}*/
 
 	cLogCommandOutputCallback Output;
 	AString Command;
